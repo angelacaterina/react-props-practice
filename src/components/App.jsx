@@ -1,4 +1,5 @@
 import React from "react";
+import Avatar from "./Avatar";
 import Card from "./Card";
 import contacts from "../contacts";
 
