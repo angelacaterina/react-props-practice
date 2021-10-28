@@ -8,6 +8,7 @@ function App() {
   return (
     <div>
       <h1 className="heading">My Contacts</h1>
+      <Avatar img="https://media-exp1.licdn.com/dms/image/C4E03AQGEGjbJULQ_BA/profile-displayphoto-shrink_200_200/0/1618306439081?e=1639612800&v=beta&t=FGWuj5EkfBCuG1MHnmO-3yV0HIqsilX8oV6WMMgdrzk"/>
       <Card 
         name={contacts[0].name}
         img={contacts[0].imgURL}
