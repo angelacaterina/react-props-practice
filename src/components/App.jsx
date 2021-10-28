@@ -7,13 +7,16 @@ import contacts from "../contacts";
 function createCard(contact){
   return <Card
     key={contact.id}
+    id={contact.id}
     name={contact.name}
     img={contact.imgURL}
     tel={contact.phone}
     email={contact.email}
   />
 }
-// key: deve essere univoco per ogni componente mappato, per questo gli viene asseganto il valore dell' id
+// PROPRIETÀ SPECIALE
+// key: deve essere univoco per ogni componente mappato,
+// per questo gli viene asseganto il valore dell' id
 
 function App() {
   return (
